@@ -1,1 +1,1 @@
-#  Personal blog wesite project.
+#  Personal blog website project.
