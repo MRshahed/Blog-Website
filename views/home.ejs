@@ -4,8 +4,8 @@
 <p><%= startingContect %></p>
 
 <% posts.forEach(post => { %>
-<h1><%= post.Title %></h1>
-<p><%= post.content.substring(0,100)+"... " %><a href="/post/<%= post.Title %>">Continue reading</a>
+<h1><%= post.title %></h1>
+<p><%= post.content.substring(0,100)+"... " %><a href="/post/<%= post._id %>">Continue reading</a>
 </p>
 
 <% }); %> 
